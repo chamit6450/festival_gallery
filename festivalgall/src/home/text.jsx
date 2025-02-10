@@ -27,31 +27,31 @@ export default function TailwindHero() {
       {/* Header Section */}
       <div className="text-center max-w-4xl relative z-10">
         <p className="text-gray-400 text-sm uppercase tracking-wide">
-          text-8xl text-white tracking-tighter text-balance
+          Explore the Origins of <span className="text-[#FFD700]">Festivals</span>
         </p>
-        <h1 className="text-6xl md:text-8xl font-bold tracking-tighter">
-          Rapidly build modern websites <br />
-          <span className="inline-block">without ever leaving your HTML.</span>
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">
+          Discover the History of <span className="text-[#e6cb37] font-semibold">Celebrations </span><br />
+          <span className="inline-block">from Ancient Traditions to Modern Festivities.</span>
         </h1>
       </div>
 
       {/* Subtext Section */}
       <div className="text-center max-w-3xl mt-6 relative z-10">
         <p className="text-lg text-gray-300 font-medium">
-          A utility-first CSS framework packed with classes like{" "}
-          <span className="text-[#20a149] font-semibold">flex, pt-4, text-center</span> and{" "}
-          <span className="text-[#20a149] font-semibold">rotate-90</span> that can be composed to build any design, directly in your markup.
+          Uncover the rich heritage of global Festivals, from the vibrant colors of{" "}
+          <span className="text-[#20a149] font-semibold">Holi</span> to the radiant lights of{" "}
+          <span className="text-[#20a149] font-semibold">Diwali</span>. Learn about ancient customs, spiritual meanings, and how these celebrations evolved over centuries.
         </p>
       </div>
 
       {/* Buttons Section */}
       <div className="flex flex-col md:flex-row items-center gap-4 mt-8 relative z-10">
         <button className="bg-gray-200 text-black px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-gray-300 transition">
-          Get started
+          Explore Now
         </button>
         <div className="flex items-center bg-gray-800 text-gray-400 px-4 py-3 rounded-full">
           <span className="mr-2">🔍</span>
-          Quick search
+          Search Festivals
         </div>
         <div className="flex items-center bg-gray-800 text-gray-400 px-4 py-3 rounded-full">
           Ctrl K

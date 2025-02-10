@@ -2,16 +2,16 @@
 import { motion } from "framer-motion";
 
 export default function DarkModeTimeline() {
-  const timelineData = [
-    { year: "2024", title: "YOUR TEXT 01", color: "border-orange-400", icon: "💡" },
-    { year: "2023", title: "YOUR TEXT 02", color: "border-red-400", icon: "👤" },
-    { year: "2022", title: "YOUR TEXT 03", color: "border-blue-400", icon: "📘" },
-    { year: "2021", title: "YOUR TEXT 04", color: "border-gray-400", icon: "⏳" },
-    { year: "2020", title: "YOUR TEXT 05", color: "border-purple-400", icon: "🤝" },
-    { year: "2019", title: "YOUR TEXT 06", color: "border-pink-400", icon: "📅" },
-    { year: "2018", title: "YOUR TEXT 07", color: "border-green-400", icon: "🚀" },
-    { year: "2017", title: "YOUR TEXT 08", color: "border-yellow-400", icon: "🎯" },
-  ];
+    const timelineData = [
+        { year: "2024", title: "Pongal", color: "border-orange-400", icon: "🌾" }, // Harvest Festival
+        { year: "2023", title: "Maha Shivaratri", color: "border-red-400", icon: "🕉️" }, // Lord Shiva
+        { year: "2022", title: "Holi", color: "border-blue-400", icon: "🎨" }, // Festival of Colors
+        { year: "2021", title: "Dusshera", color: "border-gray-400", icon: "🏹" }, // Victory of Good over Evil
+        { year: "2020", title: "Diwali", color: "border-purple-400", icon: "🪔" }, // Festival of Lights
+        { year: "2019", title: "Chhath Puja", color: "border-pink-400", icon: "🌞" }, // Sun God Worship
+        { year: "2018", title: "Ganesh Chaturthi", color: "border-green-400", icon: "🐘" }, // Lord Ganesha
+        { year: "2017", title: "Christmas", color: "border-yellow-400", icon: "🎄" }, // Jesus' Birth Celebration
+      ];
 
   return (
     <div className="relative flex flex-col items-center w-full p-16 bg-gray-900 text-gray-200">
